@@ -1,6 +1,6 @@
 # code coverage reproduction
 
-Reproduction for https://github.com/django/channels/issues/2063.
+Reproduction for https://github.com/django/channels/issues/2063 and https://github.com/nedbat/coveragepy/issues/1718.
 
 I tried also adding different concurrency options in `.coveragerc` but was unable to find a setup that made coverage get collected.
 
