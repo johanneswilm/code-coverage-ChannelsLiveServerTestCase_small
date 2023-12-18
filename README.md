@@ -34,6 +34,9 @@ open htmlcov/index.html
 # If you navigate to `coverage_repro_small/views.py`, you should see 100% coverage.
 ```
 
+<img width="628" alt="image" src="https://github.com/kierangillblueberry/code-coverage-ChannelsLiveServerTestCase_small/assets/150695914/7c1be924-327a-4f10-be0e-ca7ce96edd22">
+
+
 Run tests - Channels server test case:
 
 ```
@@ -41,6 +44,9 @@ sh coverage-channels.sh
 open htmlcov/index.html
 # If you navigate to `coverage_repro_small/views.py`, you should see 50% coverage.
 ```
+
+<img width="680" alt="image" src="https://github.com/kierangillblueberry/code-coverage-ChannelsLiveServerTestCase_small/assets/150695914/fd07a3e7-a7d9-4bfb-8464-e5346fc644b1">
+
 
 ## Misc
 
