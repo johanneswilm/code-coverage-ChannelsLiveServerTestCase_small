@@ -21,11 +21,6 @@ playwright install
 playwright install-deps chromium
 ```
 
-Start database. Channels server test case does not allow an in-memory database, so we must spin up a postgres instance.
-```
-docker compose up -d
-```
-
 Run tests - Live server test case:
 
 ```

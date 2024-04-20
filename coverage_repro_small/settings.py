@@ -64,15 +64,12 @@ ASGI_APPLICATION = "coverage_repro_small.asgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "mydatabase",
-        "USER": "mydatabaseuser",
-        "PASSWORD": "mypassword",
-        "HOST": "127.0.0.1",
-        "PORT": "5411",
+        "ENGINE": "django.db.backends.sqlite3",
+        "TEST": {
+            "NAME": "testing",
+	},
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
